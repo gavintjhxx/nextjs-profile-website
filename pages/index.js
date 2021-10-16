@@ -14,7 +14,7 @@ export default function Home({ props }) {
   return (
     <div className="min-h-screen bg-background">
       <Head>
-        <title>Blogs</title>
+        <title>Home</title>
         <meta name="description" content="Zloth's Profile Webpage" />
         <meta name="keywords" content="Zloth, Zlotherino, On Break, Zwoth" />
         <meta name="author" content="Zloth" />

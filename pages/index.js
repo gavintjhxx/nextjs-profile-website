@@ -15,6 +15,10 @@ export default function Home({ props }) {
     <div className="min-h-screen bg-background">
       <Head>
         <title>Blogs</title>
+        <meta name="description" content="Zloth's Profile Webpage" />
+        <meta name="keywords" content="Zloth, Zlotherino, On Break, Zwoth" />
+        <meta name="author" content="Zloth" />
+        <meta name="theme-color" content="#E5E7EB" />
       </Head>
       <ProfileWidget />
       {props.data.socials.map(item => (

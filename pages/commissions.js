@@ -42,6 +42,7 @@ export default function Commissions() {
                             <BlogSectionEmbedList content={item} />
                         ))
                     }/>
+                    More details about my commissions can be found in my <span><BlogLink url="https://docs.google.com/document/d/1hAMi55uJukycWBknHLHibHFasu6EimLbqoPteVGk-iE/edit?usp=sharing" name="Commissions Document" />.</span>
 
                     <BlogDivider />
 

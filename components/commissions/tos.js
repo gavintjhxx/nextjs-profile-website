@@ -1,5 +1,4 @@
-import BlogSectionEmbedList from "../blog/blogSectionEmbedList"
-import BlogSectionEmbedSubList from "../blog/blogSectionEmbedSubList"
+import BlogLink from "../blog/blogLink"
 
 export default function ToS() {
     return (
@@ -9,8 +8,8 @@ export default function ToS() {
                 <li>Any changes made to this document, including but not limited to, products/services costs or new products/services will be announced in the Discord Server. You agree to read the updates when announced and reasons including but not limited to, “didn’t read”, will not void any additional charges/fees unless there is a special circumstance.</li>
                 <li>Before making any payment, you agree to filling up, preparing or participating in any prerequisites listed below:
                     <ul className="list-disc text-blogs-texts ml-6">
-                        <li>My Discord Server for Commissions</li>
-                        <li>Google Forms to confirm your payment/subscription details</li>
+                        <li>My <BlogLink url="https://discord.com/invite/SN9K3eNCzJ" name="Discord Server"/> for Commissions</li>
+                        <li><BlogLink url="https://forms.gle/MyKx1T77QTTi4UGJ9" name="Google Forms"/> to confirm your payment/subscription details</li>
                     </ul>
                 </li>
                 <li>Payment must be made upon confirmation of the details you provided for the product/service you have commissioned me to do. (Unless the payment method used is an hourly charge)</li>

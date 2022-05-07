@@ -2,7 +2,7 @@ import BlogLink from "../blog/blogLink"
 
 export default function ToS() {
     return (
-        <blockquote className="border-l-4 border-blogs-borders mb-6 mt-2 pl-8 md:pl-12">
+        <blockquote className="border-l-4 border-blogs-borders mb-6 mt-2 pl-8 md:pl-12 hover:border-blogs-links">
             <ul className="list-decimal text-blogs-texts">
                 <li>I reserve the rights to revoke any commissions, make refunds, cancel subscriptions (monthly payments) and make updates to the commission details at my discretion.</li>
                 <li>Any changes made to this document, including but not limited to, products/services costs or new products/services will be announced in the Discord Server. You agree to read the updates when announced and reasons including but not limited to, “didn’t read”, will not void any additional charges/fees unless there is a special circumstance.</li>

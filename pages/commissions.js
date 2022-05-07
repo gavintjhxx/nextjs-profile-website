@@ -60,14 +60,20 @@ export default function Commissions() {
                     />
                     <BlogSectionEmbed text={
                         [
-                            { name: "Web Development (Full Stack)", description: "I will develop a Website for you based on my capabilities.", url: "https://zloth.me/commissions-web-development" }, 
-                            { name: "Custom Discord Bot", description: "I will develop a Custom Discord Bot for you.", url: "https://zloth.me/commissions/custom-discord-bot"}
+                            { name: "Web Development (Full Stack)", description: "I will develop a Website for you based on my capabilities." }, 
+                            { name: "Custom Discord Bot", description: "I will develop a Custom Discord Bot for you."}
                         ].map((item) => (
-                            <BlogSectionEmbedList content={
-                                <><BlogLink url={item.url} name={item.name}/><br />{item.description}</>
-                            } />
+                            <BlogSectionEmbedList content={<>{item.name}<br />{item.description}</>} />
                         ))
                     }/>
+                    Once again, more details to the above commissions, such as the rates and services provided can be found in my <span><BlogLink url="https://docs.google.com/document/d/1hAMi55uJukycWBknHLHibHFasu6EimLbqoPteVGk-iE/edit?usp=sharing" name="Commissions Document" />.</span>
+
+                    <BlogDivider />
+
+                    <BlogSectionHeader title="That's about it!" />
+                    <BlogSectionText text=
+                        "Thank you for reading! If you are interested in any commissions, feel free to join the Discord Server and get in contact with me! Have a good one."
+                    />
 
                 </div>
 

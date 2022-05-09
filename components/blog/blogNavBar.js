@@ -12,14 +12,14 @@ export default function BlogNavbar(data) {
                 </div>
 
                 <div className="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 md:bg-transparent z-20" id="nav-content">
-                    <ul className="list-reset lg:flex justify-end flex-1 items-center">
+                    <ul className="list-reset lg:flex justify-end flex-1 items-center duration-700">
                         <li className="mr-3">
                             <a className="inline-block text-blogs-links no-underline hover:text-blogs-linksHover py-2 px-4" href="https://discord.com/invite/SN9K3eNCzJ">Discord</a>
                         </li>
                         <li className="mr-3">
                             <a className="inline-block text-blogs-links no-underline hover:text-blogs-linksHover py-2 px-4" href="https://github.com/gavintjhxx">GitHub</a>
                         </li>
-                        <li className="mr-3">
+                        <li className="mr-3 animate-pulse hover:animate-none">
                             <a className="inline-block text-blogs-links no-underline hover:text-blogs-linksHover py-2 px-4" href="https://zloth.me/commissions">Commissions</a>
                         </li>
                     </ul>

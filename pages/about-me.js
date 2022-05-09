@@ -1,3 +1,4 @@
+import { useEffect } from "react/cjs/react.development"
 import BlogNavbar from "../components/blog/blogNavBar"
 import BlogHeader from "../components/blog/blogHeader"
 import BlogAuthor from "../components/blog/blogAuthor"
@@ -9,7 +10,11 @@ import BlogFooter from "../components/blog/blogFooter"
 import BlogSectionEmbedList from "../components/blog/blogSectionEmbedList"
 import BlogImage from "../components/blog/blogImage"
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+
 export default function About() {
+    useEffect(() => { AOS.init({ duration: 700 }); }, []);
     return (
         <>
             <head>

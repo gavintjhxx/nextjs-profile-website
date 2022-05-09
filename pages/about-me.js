@@ -1,4 +1,4 @@
-import { useEffect } from "react/cjs/react.development"
+import { useEffect } from "react"
 import BlogNavbar from "../components/blog/blogNavBar"
 import BlogHeader from "../components/blog/blogHeader"
 import BlogAuthor from "../components/blog/blogAuthor"

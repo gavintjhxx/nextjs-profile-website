@@ -34,7 +34,7 @@ export default function About() {
                     <BlogHeader title="About Me" date="7 May 2022" estimatedReadingTime="2 minutes, 46 seconds" />
 
                     <BlogSectionText text=
-                        "Hello 👋. I am Gavin, also known as Zloth, a 16 year old residing in Singapore and currently pursuing Software Development."
+                        "Hello 👋. I am Gavin, also known as Zloth, a 16 year old residing in Singapore and currently pursuing Cybersecurity as a passion, and Software Development as a hobby."
                     />
                     <BlogImage src="portfolio/coding-pic.png" alt="Coding Image"/>
                     <BlogSectionText text=

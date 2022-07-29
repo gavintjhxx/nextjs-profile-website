@@ -76,7 +76,31 @@ export default function About() {
                         ))
                     }/>
                     <BlogSectionText text=
-                        "Recently, I have also been working on starting commissions to boost my portfolio and present projects done by me for my clients. Do stay tuned for them!"
+                        "Recently, I have also been working on commissions to boost my portfolio and present projects done by me for my clients. Do stay tuned for them!"
+                    />
+
+                    <BlogDivider />
+
+                    <BlogSectionHeader title="About my passion..." />
+                    <BlogSectionText text=
+                        "As mentioned earlier, my passion is Cyber Security."
+                    />
+                    <BlogImage src="portfolio/cybersecurity.jpg" alt="Coding Image"/>
+                    <BlogSectionText text=
+                        "In my past 4 years of programming various projects, I realized that most projects lacked security in a way or another; NPM packages I developed had depencies that came from unknown sources, and no effort was put into ensuring the security of Websites that I made."
+                    />
+
+                    <BlogSectionText text=
+                        "Growing up, I also have watched korean dramas like any other teenager would, except I would only watch those related to IT. The way shows and movies depicted hacking, although unrealistic, along with the lack of security in my projects, spiked my interest in Cyber Security and inspired me to take my first steps into it."
+                    />
+                    <BlogImage src="portfolio/hacking.jpg" alt="Coding Image"/>
+
+                    <BlogSectionText text=
+                        "Right now, I am undergoing a full-fledged 4-volume Cyber Security course on Udemy that covers topics ranging from basic theoretical knowledge on Cyber Security, to virtual machines, to penetration testing and much more! I also own a Cyber Certificate from SingTel's Cybersecurity Course."
+                    />
+
+                    <BlogSectionText text=
+                        "Moving forward, I hope to become a Penetration Tester. Eventually, with enough experience, I also hope to be able to be promoted to a Chief Information Security Officer (CISO)."
                     />
 
                     <BlogDivider />

@@ -1,14 +1,12 @@
 import { useEffect } from "react"
 import BlogNavbar from "../components/blog/blogNavBar"
 import BlogHeader from "../components/blog/blogHeader"
-import BlogAuthor from "../components/blog/blogAuthor"
 import BlogDivider from "../components/blog/blogDivider"
 import BlogSectionText from "../components/blog/blogSectionText"
 import BlogSectionHeader from "../components/blog/blogSectionHeader"
-import BlogSectionEmbed from "../components/blog/blogSectionEmbed"
 import BlogFooter from "../components/blog/blogFooter"
-import BlogSectionEmbedList from "../components/blog/blogSectionEmbedList"
 import BlogImage from "../components/blog/blogImage"
+import BlogLink from "../components/blog/blogLink"
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
@@ -58,9 +56,10 @@ export default function About() {
                     />
                     <BlogImage src="portfolio/music-production-pic.png" alt="Image of a Music Production Software, FL Studio, on a laptop screen."/>
                     
-                    <BlogSectionText text=
+                    {/* <BlogSectionText text=
                         "In the recent years, I have grown interest in the field of (Aesthetic and Minimalistic) Photography and Video Editing. Marianne Biealieu has been a BIG, BIG, and I mean REALLY BIG inspiration to me in video editing, as I really LOVE her videos. Something about the recollection of the small cozy moments in life to look back at, over nostalgic-vibe-themed songs just HITS 👏🏽."
-                    />
+                    /> */}
+                    In the recent years, I have grown interest in the field of (Aesthetic and Minimalistic) Photography and Video Editing. <span><BlogLink url="https://www.youtube.com/@marianneBL" name="Marianne Beaulieu" /></span> has been a BIG, BIG, and I mean REALLY BIG inspiration to me in video editing, as I really LOVE her videos. Something about the recollection of the small cozy moments in life to look back at, over nostalgic-vibe-themed songs just HITS 👏🏽.
                     <BlogImage src="portfolio/video-editing.png" alt="Image of process of video editing in adobe premiere pro."/>
                     
                     <BlogSectionText text=

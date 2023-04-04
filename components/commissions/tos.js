@@ -16,9 +16,7 @@ export default function ToS() {
                 <li>Should the payment method be an hourly charge, the total sum of the commission fee will be totalled and payment must be made before the code is handed over / deployment.</li>
                 <li>By making a payment, you agree that the product or service has been reviewed by you and any changes requested/made after may incur additional charges (which you will be informed before proceeding).</li>
                 <li>After making payments/subscriptions, you agree that any further monthly fees/charges or one-time fees will be paid on time as stated in the DM sent by me. Any late payments without informing me and agreed upon together ahead of time will lead to a revoke of all commissions you have liaised with me. Any refunds required will also be made together.</li>
-                <li>All products/services purchased and delivered will be watermarked or credited to me, at least once in each component of the product or a credit page/area/space (as specified in each service in the respective pages of this document),</li>
-                <li>In the year 2022, you agree that I am given 1 month grace period past the completion date set by you, if any, in view of the National Examinations I am taking this year. </li>
-                <li>One-time discounts will be given if the aforementioned grace period is exceeded or any flaws in your product/service are found.</li>
+                <li>All products/services purchased and delivered will be watermarked or credited to me, at least once in each component of the product or a credit page/area/space (as specified in each service in the respective pages of this document)</li>
             </ul>
         </blockquote>
     )

@@ -34,105 +34,56 @@ export default function About() {
                     <BlogHeader title="About Me" date="7 May 2022" estimatedReadingTime="2 minutes, 46 seconds" />
 
                     <BlogSectionText text=
-                        "Hello 👋. I am Gavin, also known as Zloth, a 16 year old residing in Singapore and currently pursuing Cybersecurity as a passion, and Software Development as a hobby."
+                        "Hi👋🏽! I am gavin, a student residing in Singapore and I am currently pursuing Cybersecurity and Software Development as a passion. I guess that makes me a tech nerd… which also means we will start off by talking about my journey in the world of Information Technology."
                     />
-                    <BlogImage src="portfolio/coding-pic.png" alt="Coding Image"/>
-                    <BlogSectionText text=
-                        "I have many interests but I'll list the top few. I love programming, composing songs, playing instruments, photography and video editing!"
-                    />
-                    <BlogImage src="portfolio/video-editing.png" alt="Coding Image"/>
-
-                    <BlogSectionText text=
-                        "My top 3 values are Responsibility, Resilience and Empathy."
-                    />
-                    <BlogImage src="portfolio/values.png" alt="Coding Image"/>
 
                     <BlogDivider />
-
                     <BlogSectionHeader title="About my developer journey..." />
+
+                    <BlogImage src="portfolio/coding-pic.png" alt="Image of code on a laptop screen"/>
                     <BlogSectionText text=
-                        "I started programming at the age of 12. Over the past 4 years, I have attempted several projects to hone my skills as a self-taught developer, namely:"
+                        "I started programming at the age of 13 and developed countless Discord Bots using Javascript. After about 2 years, I was officially certified as a Verified Discord Bot Developer (now known as Early Verified Bot Developer). As I had the option to select elective subjects/modules in Upper Secondary (Grade 10-11), I took up computing and eventually learned Python, which was much easier than Javascript, definitely. Along the way, I developed several versions of my personal website (the one you’re currently reading is the 4th edition, 2nd revision) and learnt a lot about web security. Eventually, I got intrigued by the stereotypical thoughts of “hacking” and decided it was something worth checking out."
                     />
-                    <BlogSectionEmbed text={
-                        ["Discord Bots", 
-                        "Web Applications", 
-                        "Game Developments", 
-                        "NPM Packages"].map((item) => (
-                            <BlogSectionEmbedList content={item} />
-                        ))
-                    }/>
                     <BlogSectionText text=
-                        "I have experience with:"
+                        "This brings us to the present, where I’m currently pursuing the Diploma in Cybersecurity and Digital Forensics in Tertiary Education. Yes, hacking in real-life is very different from how movies and games portray it. It’s still pretty fun nonetheless, and it’s also an increasingly crucial aspect of our digital lives as time passes."
                     />
-                    <BlogSectionEmbed text={
-                        ["Javascript", 
-                        "Typescript", 
-                        "Go", 
-                        "Node.js", 
-                        "Full Stack Web Development (MERN Stack)", 
-                        "NextJS (This site is built using NextJS!)", 
-                        "FrontEnd Frameworks (This site's Frontend is built using tailwindcss!)"].map((item) => (
-                            <BlogSectionEmbedList content={item} />
-                        ))
-                    }/>
-                    <BlogSectionText text=
-                        "Recently, I have also been working on commissions to boost my portfolio and present projects done by me for my clients. Do stay tuned for them!"
-                    />
+                    <BlogImage src="portfolio/hacking.jpg" alt="Image of a hacker in black hoodie facing 3 computer screens with hacking references on it."/>
+
 
                     <BlogDivider />
-
-                    <BlogSectionHeader title="About my passion..." />
-                    <BlogSectionText text=
-                        "As mentioned earlier, my passion is Cyber Security."
-                    />
-                    <BlogImage src="portfolio/cybersecurity.jpg" alt="Coding Image"/>
-                    <BlogSectionText text=
-                        "In my past 4 years of programming various projects, I realized that most projects lacked security in a way or another; NPM packages I developed had depencies that came from unknown sources, and no effort was put into ensuring the security of Websites that I made."
-                    />
+                    <BlogSectionHeader title="My hobbies and passions!" />
 
                     <BlogSectionText text=
-                        "Growing up, I also have watched korean dramas like any other teenager would, except I would only watch those related to IT. The way shows and movies depicted hacking, although unrealistic, along with the lack of security in my projects, spiked my interest in Cyber Security and inspired me to take my first steps into it."
+                        "Technology aside, I also enjoy many other activities as hobbies and methods of self care. Starting with the longest lasting hobby, music! I enjoy playing the piano 🎹 as my main instrument, acoustic guitar 🎸 and ukulele. I have also experimented with digital music production using FL Studio, which I am still exploring (or at least, trying to 🤌🏽)."
                     />
-                    <BlogImage src="portfolio/hacking.jpg" alt="Coding Image"/>
+                    <BlogImage src="portfolio/music-production-pic.png" alt="Image of a Music Production Software, FL Studio, on a laptop screen."/>
+                    
+                    <BlogSectionText text=
+                        "In the recent years, I have grown interest in the field of (Aesthetic and Minimalistic) Photography and Video Editing. Marianne Biealieu has been a BIG, BIG, and I mean REALLY BIG inspiration to me in video editing, as I really LOVE her videos. Something about the recollection of the small cozy moments in life to look back at, over nostalgic-vibe-themed songs just HITS 👏🏽."
+                    />
+                    <BlogImage src="portfolio/video-editing.png" alt="Image of process of video editing in adobe premiere pro."/>
+                    
+                    <BlogSectionText text=
+                        "As for photography 📷, Pinterest has definitely been of big influence in paving my journey towards this specific field (Aesthetic and Minimalistic) of photography. This field of photography brings me to places that just fits the vibes I want my life to have, like the beach, or unpopulated hidden cafes. Below are some pictures I took using just my phone’s camera from the beach, don’t expect much!"
+                    />
+                    <BlogImage src="portfolio/beach-1.jpg" alt="Pinterest-worthy image of a palm tree against the sky."/>
+                    <BlogImage src="portfolio/beach-2.jpg" alt="Image of a tree branch laying on the sand on a beach."/>
+                    <BlogImage src="portfolio/beach-3.jpg" alt="Another aesthetic image of a pink flower tree against the sky."/>
 
                     <BlogSectionText text=
-                        "Right now, I am undergoing a full-fledged 4-volume Cyber Security course on Udemy that covers topics ranging from basic theoretical knowledge on Cyber Security, to virtual machines, to penetration testing and much more! I also own a Cyber Certificate from SingTel's Cybersecurity Course."
+                        "Recently, I have also discovered passion for the coffee-making process, as well as latte art, all thanks to the cafe I work at (it’s not just any cafe 👀). I guess this just shows that I like an aesthetic lifestyle. Anyhow, here are some pictures of my favourite cat 🐈 at my cafe, oreo, as well as some highlights of the latte arts that I have done."
                     />
-
-                    <BlogSectionText text=
-                        "Moving forward, I hope to become a Penetration Tester. Eventually, with enough experience, I also hope to be able to be promoted to a Chief Information Security Officer (CISO)."
-                    />
-
-                    <BlogDivider />
-
-                    <BlogSectionHeader title="About my leadership journey..." />
-                    <BlogSectionText text=
-                        "On April of 2020, I kickstarted my 2-year service in the Student Council of the school I study in."
-                    />
-                    <BlogImage src="portfolio/formal-17th-council.png" alt="17th Student Council Group Photo"/>
-                    <BlogSectionText text=
-                        "In the Council, I served as the Vice President of the 17th Executive Committee in the latter year, leading a crew of nearly 40 councillors. Of course, with great power comes great responsibility!"
-                    />
-                    <BlogImage src="portfolio/17th-EXCOs.png" alt="17th Executive Committee Group Photo"/>
-                    <BlogSectionText text=
-                        "Over the 2 years of my leadership journey here, I have learnt countless lessons and made unforgettable memories I will cherish forever. Besides the cliche ones, here are some of the lessons I have learned:"
-                    />
-                    <BlogSectionEmbed text={
-                        ["Public Speaking",
-                        "Project Management Skills",
-                        "Communication Skills",
-                        "Adaptibility",
-                        "Importance of Teamwork",
-                        "Most importantly, the ability to inspire and grow new aspiring leaders"].map((item) => (
-                            <BlogSectionEmbedList content={item} />
-                        ))
-                    }/>
+                    <BlogImage src="portfolio/oreo-1.jpg" alt="Image of oreo, a cat, with a collar and angry face grr..."/>
+                    <BlogImage src="portfolio/oreo-2.jpg" alt="Image of oreo, a cat, open mouth, ready to devour a treat."/>
+                    <BlogImage src="portfolio/oreo-3.jpg" alt="Image of oreo, a cat, sticking his tongue out, as if :p"/>
+                    <BlogImage src="portfolio/latte-1.jpg" alt="Image of a filled, slightly rippled heart latte art."/>
+                    <BlogImage src="portfolio/latte-2.jpg" alt="Image of a ripple heart latte art."/>
+                    <BlogImage src="portfolio/latte-3.jpg" alt="Image of a tulip hot chocolate art."/>
 
                     <BlogDivider />
-
-                    <BlogSectionHeader title="That's about it!" />
+                    
                     <BlogSectionText text=
-                        "Thank you for reading! Do feel free to check out my socials and currently open commissions in the footer. Have a good one."
+                        "That’s about it, thank you for reading! Do feel free to check out my socials and currently open commissions in the below footer and have a great one!"
                     />
 
                 </div>

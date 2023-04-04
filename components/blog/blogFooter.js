@@ -13,9 +13,9 @@ export default function BlogFooter() {
                         <div className="px-8">
                             <h3 className="font-bold text-blogs-titles">Zloth</h3>
                             <p className="py-4 text-blogs-texts text-sm">
-                                A developer undergoing education.<br />
-                                Verified Bot Developer and<br />
-                                Learning Web Development using MERN Stack.
+                                A Cybersecurity student,<br />
+                                Verified Discord Bot Developer and<br />
+                                Freelance Developer.
                             </p>
                         </div>
                     </div>

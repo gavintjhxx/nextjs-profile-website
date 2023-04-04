@@ -29,7 +29,7 @@ export default function About() {
 
                 <div className="w-full px-4 md:px-6 text-xl text-blogs-texts leading-normal">
 
-                    <BlogHeader title="About Me" date="7 May 2022" estimatedReadingTime="2 minutes, 46 seconds" />
+                    <BlogHeader title="About Me" date="4 April 2023" estimatedReadingTime="2 minutes 41 seconds" />
 
                     <BlogSectionText text=
                         "Hi👋🏽! I am gavin, a student residing in Singapore and I am currently pursuing Cybersecurity and Software Development as a passion. I guess that makes me a tech nerd… which also means we will start off by talking about my journey in the world of Information Technology."

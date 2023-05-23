@@ -25,13 +25,13 @@ export default function BlogFooter() {
                             <h3 className="font-bold text-blogs-titles">Socials</h3>
                             <ul className="list-reset items-center text-sm pt-3">
                                 <li>
-                                    <a className="inline-block text-blogs-texts no-underline py-1 text-blogs-links hover:text-blogs-linksHover hover:text-underline" href="https://discord.com/invite/SN9K3eNCzJ">Discord</a>
+                                    <a className="inline-block no-underline py-1 text-blogs-links hover:text-blogs-linksHover hover:text-underline" href="https://discord.com/invite/SN9K3eNCzJ">Discord</a>
                                 </li>
                                 <li>
-                                    <a className="inline-block text-blogs-texts no-underline py-1 text-blogs-links hover:text-blogs-linksHover hover:text-underline" href="https://github.com/gavintjhxx">GitHub</a>
+                                    <a className="inline-block no-underline py-1 text-blogs-links hover:text-blogs-linksHover hover:text-underline" href="https://github.com/gavintjhxx">GitHub</a>
                                 </li>
                                 <li>
-                                    <a className="inline-block text-blogs-texts no-underline py-1 text-blogs-links hover:text-blogs-linksHover hover:text-underline" href="https://zloth.me/commissions">Commissions</a>
+                                    <a className="inline-block no-underline py-1 text-blogs-links hover:text-blogs-linksHover hover:text-underline" href="https://gavintjh.me/commissions">Commissions</a>
                                 </li>
                             </ul>
                         </div>

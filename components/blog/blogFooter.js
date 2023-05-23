@@ -1,6 +1,6 @@
 export default function BlogFooter() {
     return (
-        <footer className="mt-8 bg-blogs-navBackgrounds border-t border-gray-400 shadow">
+        <footer className="mt-8 bg-navbars-background border-t border-gray-400 shadow">
             <div className="container max-w-4xl mx-auto flex py-8">
 
                 <div className="w-full mx-auto flex flex-wrap">
@@ -11,8 +11,8 @@ export default function BlogFooter() {
                     </div>
                     <div className="flex w-full md:w-1/3 ">
                         <div className="px-8">
-                            <h3 className="font-bold text-blogs-titles">Zloth</h3>
-                            <p className="py-4 text-blogs-texts text-sm">
+                            <h3 className="font-bold text-navbars-titles">gavin</h3>
+                            <p className="py-4 text-navbars-texts text-sm">
                                 A Cybersecurity student,<br />
                                 Verified Discord Bot Developer and<br />
                                 Freelance Developer.
@@ -22,16 +22,16 @@ export default function BlogFooter() {
 
                     <div className="flex w-full md:w-1/3">
                         <div className="px-8">
-                            <h3 className="font-bold text-blogs-titles">Socials</h3>
+                            <h3 className="font-bold text-navbars-titles">Socials</h3>
                             <ul className="list-reset items-center text-sm pt-3">
                                 <li>
-                                    <a className="inline-block no-underline py-1 text-blogs-links hover:text-blogs-linksHover hover:text-underline" href="https://discord.com/invite/SN9K3eNCzJ">Discord</a>
+                                    <a className="inline-block no-underline py-1 text-navbars-links hover:text-navbars-linksHover hover:text-underline" href="https://discord.com/invite/SN9K3eNCzJ">Discord</a>
                                 </li>
                                 <li>
-                                    <a className="inline-block no-underline py-1 text-blogs-links hover:text-blogs-linksHover hover:text-underline" href="https://github.com/gavintjhxx">GitHub</a>
+                                    <a className="inline-block no-underline py-1 text-navbars-links hover:text-navbars-linksHover hover:text-underline" href="https://github.com/gavintjhxx">GitHub</a>
                                 </li>
                                 <li>
-                                    <a className="inline-block no-underline py-1 text-blogs-links hover:text-blogs-linksHover hover:text-underline" href="https://gavintjh.me/commissions">Commissions</a>
+                                    <a className="inline-block no-underline py-1 text-navbars-links hover:text-navbars-linksHover hover:text-underline" href="https://gavintjh.me/commissions">Commissions</a>
                                 </li>
                             </ul>
                         </div>

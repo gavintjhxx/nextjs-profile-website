@@ -5,27 +5,29 @@ import BlogDivider from "../components/blog/blogDivider"
 import BlogSectionText from "../components/blog/blogSectionText"
 import BlogSectionHeader from "../components/blog/blogSectionHeader"
 import BlogFooter from "../components/blog/blogFooter"
+import BlogReadingProgressBar from "../components/blog/blogReadingProgressBar"
 import BlogImage from "../components/blog/blogImage"
+import BlogImageCarousel from "../components/blog/blogImageCarousel"
 import BlogLink from "../components/blog/blogLink"
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 export default function About() {
-    useEffect(() => { AOS.init({ duration: 700 }); }, []);
+    useEffect(() => { AOS.init({ duration: 700, disable: 'mobile' }); }, []);
     return (
         <>
             <head>
-                <meta name="description" content="Blog - A little bit about Zloth" />
-                <meta name="keywords" content="Zloth, Zlotherino" />
-                <meta name="author" content="Zloth" />
+                <meta name="description" content="Blog - A little bit about gavin" />
+                <meta name="keywords" content="gavin," />
+                <meta name="author" content="gavin" />
                 <meta name="theme-color" content="#E5E7EB" />
                 <title>About Me</title>
             </head>
 
             <BlogNavbar />
 
-            <div className="container w-full md:max-w-3xl mx-auto pt-20">
+            <div className="container w-full md:max-w-3xl mx-auto pt-5">
 
                 <div className="w-full px-4 md:px-6 text-xl text-blogs-texts leading-normal">
 
@@ -40,7 +42,10 @@ export default function About() {
 
                     <BlogImage src="portfolio/coding-pic.png" alt="Image of code on a laptop screen"/>
                     <BlogSectionText text=
-                        "I started programming at the age of 13 and developed countless Discord Bots using Javascript. After about 2 years, I was officially certified as a Verified Discord Bot Developer (now known as Early Verified Bot Developer). As I had the option to select elective subjects/modules in Upper Secondary (Grade 10-11), I took up computing and eventually learned Python, which was much easier than Javascript, definitely. Along the way, I developed several versions of my personal website (the one you’re currently reading is the 4th edition, 2nd revision) and learnt a lot about web security. Eventually, I got intrigued by the stereotypical thoughts of “hacking” and decided it was something worth checking out."
+                        "I started programming at the age of 13 and developed countless Discord Bots using Javascript. After about 2 years, I was officially certified as a Verified Discord Bot Developer (now known as Early Verified Bot Developer). As I had the option to select elective subjects/modules in Upper Secondary (Grade 10-11), I took up computing and eventually learned Python, which was much easier than Javascript, definitely."
+                    />
+                    <BlogSectionText text=
+                        "Along the way, I developed several versions of my personal website (the one you’re currently reading is the 4th edition, 2nd revision) and learnt a lot about web security. Eventually, I got intrigued by the stereotypical thoughts of “hacking” and decided it was something worth checking out."
                     />
                     <BlogSectionText text=
                         "This brings us to the present, where I’m currently pursuing the Diploma in Cybersecurity and Digital Forensics in Tertiary Education. Yes, hacking in real-life is very different from how movies and games portray it. It’s still pretty fun nonetheless, and it’s also an increasingly crucial aspect of our digital lives as time passes."
@@ -65,19 +70,29 @@ export default function About() {
                     <BlogSectionText text=
                         "As for photography 📷, Pinterest has definitely been of big influence in paving my journey towards this specific field (Aesthetic and Minimalistic) of photography. This field of photography brings me to places that just fits the vibes I want my life to have, like the beach, or unpopulated hidden cafes. Below are some pictures I took using just my phone’s camera from the beach, don’t expect much!"
                     />
-                    <BlogImage src="portfolio/beach-1.jpg" alt="Pinterest-worthy image of a palm tree against the sky."/>
-                    <BlogImage src="portfolio/beach-2.jpg" alt="Image of a tree branch laying on the sand on a beach."/>
-                    <BlogImage src="portfolio/beach-3.jpg" alt="Another aesthetic image of a pink flower tree against the sky."/>
+                    <BlogImageCarousel images={[
+                        "portfolio/beach-1.jpg",
+                        "portfolio/beach-2.jpg",
+                        "portfolio/beach-3.jpg"
+                    ]}/>
 
                     <BlogSectionText text=
                         "Recently, I have also discovered passion for the coffee-making process, as well as latte art, all thanks to the cafe I work at (it’s not just any cafe 👀). I guess this just shows that I like an aesthetic lifestyle. Anyhow, here are some pictures of my favourite cat 🐈 at my cafe, oreo, as well as some highlights of the latte arts that I have done."
                     />
-                    <BlogImage src="portfolio/oreo-1.jpg" alt="Image of oreo, a cat, with a collar and angry face grr..."/>
-                    <BlogImage src="portfolio/oreo-2.jpg" alt="Image of oreo, a cat, open mouth, ready to devour a treat."/>
-                    <BlogImage src="portfolio/oreo-3.jpg" alt="Image of oreo, a cat, sticking his tongue out, as if :p"/>
-                    <BlogImage src="portfolio/latte-1.jpg" alt="Image of a filled, slightly rippled heart latte art."/>
+                    {/* <BlogImage src="" alt="Image of oreo, a cat, with a collar and angry face grr..."/>
+                    <BlogImage src="" alt="Image of oreo, a cat, open mouth, ready to devour a treat."/>
+                    <BlogImage src="" alt="Image of oreo, a cat, sticking his tongue out, as if :p"/>
+                    <BlogImage src="" alt="Image of a filled, slightly rippled heart latte art."/>
                     <BlogImage src="portfolio/latte-2.jpg" alt="Image of a ripple heart latte art."/>
-                    <BlogImage src="portfolio/latte-3.jpg" alt="Image of a tulip hot chocolate art."/>
+                    <BlogImage src="portfolio/latte-3.jpg" alt="Image of a tulip hot chocolate art."/> */}
+                    <BlogImageCarousel images={[
+                        'portfolio/oreo-1.jpg',
+                        'portfolio/oreo-2.jpg',
+                        'portfolio/oreo-3.jpg',
+                        'portfolio/latte-1.jpg',
+                        'portfolio/latte-2.jpg',
+                        'portfolio/latte-3.jpg'
+                    ]}/>
 
                     <BlogDivider />
                     
@@ -89,6 +104,7 @@ export default function About() {
 
             </div>
 
+            <BlogReadingProgressBar/>
             <BlogFooter />
 
         </>
